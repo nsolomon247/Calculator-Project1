@@ -12,8 +12,30 @@ main {
     width: 600px;
     box-shadow: 10px 5px 5px rgb(71, 95, 150);
 }
-#VirtualKey {
-    align-content: center;
+h1{
+    text-align: center;
+}
+button{
+    border: 2px solid rgb(69, 122, 187);
+}
+#btn9
+#btn8
+#btn7
+#btn6
+#btn5
+#btn4   
+#btn3
+#btn2
+#btn1
+#btn0{
+    width: 50vw;
+    height: 50vh;
+
 
 }
+
+/*#VirtualKey {
+    align-content: center;
+
+}*/
   
