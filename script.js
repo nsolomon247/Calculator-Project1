@@ -1,6 +1,9 @@
+
 let display = document.querySelector('#display');
 
 let buttons = Array.from(document.getElementsByTagName('button'));
+
+//Maping the clicked values of buttons
 
 buttons.map( button => {
     button.addEventListener('click', (e) => {
@@ -12,9 +15,10 @@ buttons.map( button => {
                 display.innerHTML = '';
                 break;
             case '=':
-                try{
+                if(display.innerHTML != ""){
                     display.innerHTML = eval(display.innerHTML);
-                } catch {
+                } 
+                else {
                     display.innerHTML = "Error"
                 }
                 break;
