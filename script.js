@@ -4,6 +4,9 @@ let buttons = Array.from(document.getElementsByTagName('button'));
 
 buttons.map( button => {
     button.addEventListener('click', (e) => {
+
+        // Switch Case statement to iterate through as buttons are clicked
+        
         switch(e.target.innerHTML){
             case 'C':
                 display.innerHTML = '';
